@@ -1,0 +1,21 @@
+[package]
+name = "actix-web-skeleton"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.19.0"
+anyhow = "1.0.104"
+async-trait = "0.1.92"
+dotenv = "0.15.0"
+serde = { version = "1.0.229", features = ["derive"] }
+sqlx = { version = "0.9.0", features = ["runtime-tokio", "macros"] }
+thiserror = "1.0.69"
+validator = "0.21.0"
+actix-web-validator = "5.0.1"
+chrono = { version = "0.4.45", features = ["serde"] }
+log = "0.4.35"
+utoipa = "4.2.3"
+
+[dev-dependencies]
+actix-rt = "2.15.0"
